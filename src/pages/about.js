@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Fragment>
       <h1 className="x-large">About Us</h1>
-      <p className="x-large">Information about us</p>
+      <p className="x-large">Information about us!</p>
       <Navbar />
     </Fragment>
   );
