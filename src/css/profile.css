@@ -1,0 +1,198 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Team styling */
+
+.split {
+  height: 100%;
+}
+.split h1 {
+  text-align: center;
+}
+.split .right {
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+.split .right.dark {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+}
+.split .right.light {
+  background: rgba(0, 0, 0, 0.5);}
+.split .left {
+  box-sizing: border-box;
+  width: 40%;
+  float: left;
+  height: 100%;
+}
+
+.split .left p {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+@media (max-width: 650px) {
+  .split .left,
+  .split .right {
+    width: 100%;
+  }
+}
+/* linkedin */
+.hire-button {
+  background-color: #66fcf1;
+  border-radius: 20px;
+  color: #2b0928;
+  padding: 1em;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.hire-button:focus,
+.hire-button:hover {
+  background-color: #45a29e;
+  color: #fff;
+}
+
+.profile {
+  position: relative;
+  width: 100%;
+  float: right;
+  /* background-color: black; */
+  background: url("../images/profile.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+.profile .left {
+  color: #e7e5e8;
+}
+.profile .right {
+  color: #777;
+  text-align: center;
+}
+
+.profile .right h2,
+.profile .right p {
+  padding: 30px;
+}
+
+/* .profile .right p {
+  padding-bottom: 5rem;
+} */
+.profile .wrapper {
+  margin-top: 25%;
+  text-align: center;
+  font-weight: 100;
+}
+.profile img.headshot {
+  width: 25%;
+  opacity: 0.75;
+  border-radius: 50%;
+  border: 2px solid hsla(0, 0%, 93%, 0.1);
+  margin: 0 auto;
+  display: block;
+}
+.profile img.header-image {
+  height: auto;
+  /* height: 15rem; */
+  max-height: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+.socialmedia {
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  justify-items: center;
+  margin: auto;
+  padding-top: 2rem;
+
+  /* position: absolute;
+  bottom: 0;
+  left: 10%; */
+  /* margin-top: 175px; */
+}
+
+@media (min-width: 500px) {
+  .socialmedia {
+    grid-auto-flow: column;
+  }
+}
+
+/* social media footer */
+
+.socialmedia li a {
+  display: block;
+  height: 4em;
+  width: 4em;
+  text-indent: -500em;
+  line-height: 4em;
+  text-align: center;
+  /* color: #7a5cff; */
+  color: #fff;
+  /* background: transparent; */
+  position: relative;
+  /* border-bottom: 1px solid #ffe2e3; */
+  /* transition: background 0.3s ease-in-out; */
+}
+
+.socialmedia li a:hover {
+  opacity: 0.7;
+}
+.socialmedia li a:before {
+  font-family: FontAwesome;
+
+  text-indent: 0em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5em;
+}
+
+.socialmedia li a.twitter:before {
+  content: "\f099";
+  background: #55acee;
+  color: white;
+  border-radius: 50%;
+}
+
+.socialmedia li a.github:before {
+  content: "\f09b";
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+.socialmedia li a.mail:before {
+  content: "\f0e0";
+  background: #dd4b39;
+  color: white;
+  border-radius: 50%;
+}
+
+.socialmedia li a.linkedin:before {
+  content: "\f08c";
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+}

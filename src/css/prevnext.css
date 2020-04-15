@@ -1,0 +1,26 @@
+.prevnext ul {
+  list-style: none;
+  text-align: center;
+}
+
+.prevnext li {
+  display: inline-block;
+  margin: 0px 80px;
+  /* padding: 10px 140px; */
+}
+
+.prevnext a {
+  display: inline;
+  text-decoration: none;
+  color: #66fcf1;
+  /* margin: 0px 80px; */
+  /* padding: 10px 140px; */
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  text-align: left;
+}

@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.link-project {
+  background-color: #66fcf1;
+  text-decoration: none;
+  color: #333;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.link-project:hover {
+  opacity: 0.6;
+  color: #fff;
+}
+.project-links {
+  background-color: #45a29e;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.project-links:hover {
+  opacity: 0.6;
+}
+
+/* Styles for the hero image */
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url("../images/projects.jpeg") center;
+  background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  height: auto;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  /* grid styles */
+}
+
+.dark-back {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
+}
+
+.dark-back > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+/* .dark-back > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+} */
+
+.dark-back > article > a {
+  padding: 1rem;
+  margin-top: 0.75rem;
+}
+
+/* project styles */
+.project {
+  padding: 10rem;
+}
+
+.project > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.project > ul > li {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+}
+
+.project > ul > li > a > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: relative;
+}
+
+.project > ul > li > a > figure > img {
+  width: 100%;
+}
+
+.project > ul > li > a > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.project > ul > li > a> figure > figcaption > h3 {
+  color: white;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.project > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem 0.75rem;
+  color: #666666;
+}
+
+.project > ul > li > a {
+
+  /* background-color: #45a29e;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s; */
+  cursor: pointer;
+  /* position:absolute;
+  bottom:0;
+  left:0; */
+  /* padding: 0.5rem 1rem;
+  margin: 0.5rem; */
+}
