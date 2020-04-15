@@ -81,7 +81,7 @@ const Navbar = () => {
         </li>
         <li title="linkedin">
           <a
-            href="https://www.youtube.com/channel/UCteut5f1PHW8vP29o66z-kg"
+            href="https://www.linkedin.com/in/nicholas-chiarulli-599182133/"
             className="linkedin"
           >
             about
