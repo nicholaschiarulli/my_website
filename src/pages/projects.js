@@ -24,6 +24,12 @@ const projects = () => {
         </section>
         <section class="project" id="list">
           <ul>
+          <Project
+              imageName="gatsbyPic.jpg"
+              title="Gatsby Website"
+              description="The website you are currently viewing is built with Gatsby, React, Javascript, and CSS!"
+              projectLink="blog"
+            ></Project>
             <Project
               imageName="screenshot-from-2020-01-26-23-40-12.png"
               title="Code Connector"
@@ -31,8 +37,6 @@ const projects = () => {
               React, Nodejs, Redux, MongoDB"
               projectLink="blog"
             ></Project>
-
-   
             <Project
               imageName="screenshot-from-2020-01-26-23-39-24.png"
               title="Github Finder"
@@ -71,23 +75,8 @@ const projects = () => {
               that will control the hue lighting in my home."
               projectLink="blog"
             ></Project>
+          
             {/* <Project
-              imageName="monkey-computer.jpg"
-              title="Drone Project"
-              description="Made in the interiors of collapsing stars star stuff harvesting
-                star light venture billions upon billions Drake Equation brain
-                is the seed of intelligence?"
-              projectLink="blog"
-            ></Project>
-            <Project
-              imageName="monkey-computer.jpg"
-              title="Drone Project"
-              description="Made in the interiors of collapsing stars star stuff harvesting
-                star light venture billions upon billions Drake Equation brain
-                is the seed of intelligence?"
-              projectLink="blog"
-            ></Project>
-            <Project
               imageName="monkey-computer.jpg"
               title="Drone Project"
               description="Made in the interiors of collapsing stars star stuff harvesting
