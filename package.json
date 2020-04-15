@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "My website on Gatsby",
   "version": "1.0.0",
-  "author": "codemonkeys",
-  "homepage": "https://github.com/codemonkeysio/codemonkeyswebsite",
+  "author": "Nicholas Chiarulli",
+  "homepage": "https://github.com/nicholaschiarulli/my_website",
   "dependencies": {
     "gatsby": "^2.10.0",
     "gatsby-image": "^2.2.1",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/nicholaschiarulli/my_website"
   }
 }

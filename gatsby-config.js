@@ -1,15 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Nicholas Chiarulli",
-    siteUrl: "https://nicholaschiarulli.com"
+    siteUrl: "https://nickchiarulli.com"
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-plugin-s3`,
-    //   options: {
-    //     bucketName: "thecodemonkeys"
-    //   }
-    // },
+
     // for site metadata
     "gatsby-plugin-react-helmet",
     `gatsby-plugin-sharp`,
