@@ -32,6 +32,7 @@ html {
 }
 
 /* Styles for the hero image */
+
 .hero {
   /* Photo by mnm.all on Unsplash */
   background: url("../images/projects.jpeg") center;
@@ -42,6 +43,7 @@ html {
   padding: 4rem 2rem;
   /* grid styles */
 }
+
 
 .dark-back {
   background-color: rgba(0, 0, 0, 0.5);
@@ -77,7 +79,7 @@ html {
 
 .project > ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 1rem;
 }
 
@@ -133,4 +135,18 @@ html {
   left:0; */
   /* padding: 0.5rem 1rem;
   margin: 0.5rem; */
+}
+
+@media only screen and (max-width: 414px) {
+  .hero{
+    display: none;
+  }
+  .project > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+  }
+  .project {
+    padding: 3rem;
+  }
 }
