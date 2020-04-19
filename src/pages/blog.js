@@ -9,7 +9,7 @@ const IndexPage = props => {
   return (
     <Fragment>
       <div className="side">
-        <div className="side right" style={{ width: "90%" }}>
+        <div className="side right" >
           <Layout>
             <Link to="/tags" className="topics">
               <div>
@@ -30,7 +30,7 @@ const IndexPage = props => {
             ))}
           </Layout>
         </div>
-        <div className="side left" style={{ width: "10%" }}>
+        <div className="side left" >
           <Navbar></Navbar>
         </div>
       </div>

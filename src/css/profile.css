@@ -97,12 +97,16 @@ ul {
   margin-top: 25%;
   text-align: center;
   font-weight: 100;
+  color: #fff;
+}
+.profile .wrapper p{
+  color: #fff;
 }
 .profile img.headshot {
-  width: 25%;
+  width: 40%;
   opacity: 1;
   border-radius: 50%;
-  border: 2px solid hsla(0, 0%, 93%, 0.1);
+  border: 2px solid hsla(0, 0%, 93%, 0);
   margin: 0 auto;
   display: block;
 }
