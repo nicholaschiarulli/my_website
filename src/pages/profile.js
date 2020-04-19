@@ -12,7 +12,7 @@ const profile = () => {
     email: "nicholasrachiarulli@gmail.com",
     github: "nicholaschiarulli",
     linkedin: "nicholas-chiarulli-599182133/",
-    profilePicture: "me.jpeg"
+    profilePicture: "profile-pic.jpeg"
   };
   return (
     <Fragment>
