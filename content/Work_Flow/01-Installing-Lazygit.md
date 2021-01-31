@@ -1,6 +1,6 @@
 ---
 title: How to install and use Lazygit
-description: description
+description: Installing and using Lazygit for Mac and Linux(Ubuntu)
 date: "2021-01-31"
 tags: ["workflow"]
 ---
