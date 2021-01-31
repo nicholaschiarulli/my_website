@@ -8,7 +8,7 @@ const profile = () => {
     school: "Rutgers New Brunswick",
     employedAt: "Computer Science",
     company: "Software Engineer",
-    resumeImage: "monkey.jpg",
+    resumeImage: "Nicholas_Chiarulli_Resume.png",
     email: "nicholasrachiarulli@gmail.com",
     github: "nicholaschiarulli",
     linkedin: "nicholas-chiarulli-599182133/",
