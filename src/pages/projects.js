@@ -52,7 +52,7 @@ const projects = () => {
               Arch linux is a linux distribution with rolling releases and I3 is a window manager."
               projectLink="blog"
             ></Project>
-                     <Project
+            <Project
               imageName="screenshot-from-2020-01-26-23-39-56.png"
               title="Ebay application"
               description="Auction based webapp that allows users to buy and sell
@@ -67,14 +67,14 @@ const projects = () => {
               to store access data for users, groups, and operations."
               projectLink="blog"
             ></Project>
-            <Project
+            {/* <Project
               imageName="hue.jpg"
               title="Project I am currently working on"
               description="The idea for this project is a mobile app that listens to my
               voice using DeepSpeech and Spacey. It will then make REST requests to a Flask Server
               that will control the hue lighting in my home."
               projectLink="blog"
-            ></Project>
+            ></Project> */}
           
             {/* <Project
               imageName="monkey-computer.jpg"
