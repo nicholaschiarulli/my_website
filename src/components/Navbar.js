@@ -52,34 +52,34 @@ const Navbar = () => {
  */}
 
       <ul className="menu">
-        <li title="home">
+        <li customTitle="home">
           <a href="/" className="home">
             <div className="expanded">home</div>
           </a>
         </li>
 
-        <li title="resume">
+        <li customTitle="resume">
           <a href="/profile" className="resume">
-          resume
+          
           </a>
         </li>
-        <li title="blog">
+        <li customTitle="blog">
           <a href="/blog" className="blog">
             blog
           </a>
         </li>
-        <li title="projects">
+        <li customTitle="projects">
           <a href="/projects" className="projects">
             projects
           </a>
         </li>
 
-        <li title="github">
+        <li customTitle="github">
           <a href="https://github.com/nicholaschiarulli" className="archive">
             github
           </a>
         </li>
-        <li title="linkedin">
+        <li customTitle="linkedin">
           <a
             href="https://www.linkedin.com/in/nicholas-chiarulli-599182133/"
             className="linkedin"
@@ -89,12 +89,12 @@ const Navbar = () => {
         </li>
       
 
-        {/* <li title="about">
+        {/* <li customTitle="about">
           <a href="/about" className="about">
             about
           </a>
         </li> */}
-        <li title="contact">
+        <li customTitle="contact">
           <a href="mailto:codemonkeysYT@gmail.com" className="contact">
             contact
           </a>

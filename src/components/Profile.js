@@ -29,7 +29,7 @@ const Profile = props => {
           <h1>{name}</h1>
           <p>School: {school}</p>
           <p>Degree: {employedAt}</p>
-          <p>Career: {company}</p>
+          <p>Company: {company}</p>
           <br></br>
           <p>
             <a
