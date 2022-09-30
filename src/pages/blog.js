@@ -13,9 +13,7 @@ const IndexPage = props => {
           <Layout>
             <Link to="/tags" className="topics">
               <div>
-              <i className="fa-arrow-right" style={{ marginRight: "2rem"}} /> 
-              Topics
-               
+              <i className="fas fa-book" /> Topics
               </div>
             </Link>
 
